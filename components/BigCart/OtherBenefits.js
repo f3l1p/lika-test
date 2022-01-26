@@ -19,8 +19,15 @@ const OtherBenefits = () => {
 };
 
 const styles = StyleSheet.create({
+  textArea: {
+    flex: 1,
+    flexDirection: 'row',
+    width: '98%',
+    marginBottom: 4,
+  },
+
   textOpacity: {
-    fontSize: 18,
+    fontSize: 16,
     fontWeight: '200',
     color: 'white',
   },
@@ -31,12 +38,6 @@ const styles = StyleSheet.create({
     width: 15,
     marginRight: 8,
     marginBottom: 16,
-  },
-
-  textArea: {
-    flex: 1,
-    flexDirection: 'row',
-    marginBottom: 12,
   },
 });
 

@@ -40,7 +40,7 @@ const LaikaSavings = props => {
         </View>
 
         <LaikaButton
-          name="calcular"
+          name="Calcular"
           onPress={() => calculateSavingsHandler(userAmount)}
         />
       </View>
@@ -75,6 +75,7 @@ const styles = StyleSheet.create({
     color: 'white',
     fontSize: 18,
     alignSelf: 'center',
+    margin: 4,
   },
 
   calcContainer: {
@@ -86,6 +87,7 @@ const styles = StyleSheet.create({
     width: '90%',
     alignSelf: 'center',
     borderRadius: 12,
+    marginTop: 4,
   },
 
   input: {
@@ -95,8 +97,8 @@ const styles = StyleSheet.create({
   },
 
   amount: {
-    fontSize: 30,
-    marginVertical: 10,
+    fontSize: 32,
+    marginVertical: 4,
   },
 
   resultContainer: {

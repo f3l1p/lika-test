@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
 
   imag: {
     alignSelf: 'center',
-    height: 160,
+    height: 165,
     width: 120,
     borderRadius: 10,
   },

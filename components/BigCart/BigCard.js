@@ -20,18 +20,18 @@ const BigCard = () => {
             style={styles.imageLogo}
           />
           <Text style={styles.textBold}>
-            <Special>15% </Special>
+            <Text style={styles.goldBold}>15% </Text>
             de descuento en todos los productos
           </Text>
         </View>
-        <View style={styles.textArea}>
+        <View style={styles.textArea2}>
           <Image
             source={require('../../assets/Group2533.png')}
             style={styles.imageLogo}
           />
           <Text style={styles.textSemiBold}>
             Domicilio
-            <Special> gratis </Special>
+            <Text style={styles.goldBold}> gratis </Text>
             <Text style={styles.textOpacity}>*apartir de $120.000</Text>
           </Text>
         </View>
@@ -94,12 +94,19 @@ const styles = StyleSheet.create({
     width: 15,
     marginRight: 8,
     marginBottom: 16,
+    alignSelf: 'center',
   },
 
   textArea: {
     flex: 1,
     flexDirection: 'row',
+    alignItems: 'center',
     marginBottom: 12,
+  },
+
+  textArea2: {
+    flex: 1,
+    flexDirection: 'row',
   },
 
   textBold: {
@@ -108,9 +115,14 @@ const styles = StyleSheet.create({
     color: 'white',
   },
 
+  goldBold: {
+    color: colors.sunshineGold,
+    fontWeight: '600',
+  },
+
   textSemiBold: {
     fontSize: 18,
-    fontWeight: '400',
+    fontWeight: '500',
     color: 'white',
   },
 

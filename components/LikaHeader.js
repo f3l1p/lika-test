@@ -50,13 +50,13 @@ const styles = StyleSheet.create({
 
   title: {
     alignItems: 'center',
-    margin: 18,
+    margin: 4,
   },
 
   textTitle: {
     color: 'white',
-    fontWeight: 'bold',
-    fontSize: 30,
+    fontWeight: '800',
+    fontSize: 34,
   },
 
   headerText: {
@@ -64,6 +64,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '200',
     alignSelf: 'center',
+    textAlign: 'center',
   },
 
   imageCard: {

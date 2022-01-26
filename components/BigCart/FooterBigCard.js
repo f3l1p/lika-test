@@ -18,7 +18,10 @@ const FooterBigCard = () => {
         <View style={styles.colL}>
           <Text style={styles.text}>Paga únicamente</Text>
           <Text style={styles.priceText}>
-            $69.000 <Text style={styles.textOpacity}>/año</Text>
+            $69.000
+            <Text style={styles.textOpacity}>
+              /<Text style={styles.textOpacityYear}>año</Text>
+            </Text>
           </Text>
         </View>
         <View style={styles.colR}>
@@ -38,13 +41,23 @@ const FooterBigCard = () => {
 };
 
 const styles = StyleSheet.create({
+  footerCard: {
+    marginTop: 14,
+  },
+
   text: {
     color: 'white',
     fontSize: 16,
   },
 
   textOpacity: {
-    fontSize: 18,
+    fontSize: 26,
+    fontWeight: '200',
+    color: 'white',
+  },
+
+  textOpacityYear: {
+    fontSize: 20,
     fontWeight: '200',
     color: 'white',
   },
@@ -62,21 +75,24 @@ const styles = StyleSheet.create({
   },
 
   miniCard: {
-    padding: 4,
+    // padding: 2,
     backgroundColor: colors.gray800,
     borderRadius: 10,
-    width: 100,
-    height: 10,
+    width: 110,
+    maxHeight: 35,
+    marginTop: 17,
 
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'space-evenly',
+    justifyContent: 'center',
     alignItems: 'center',
+    textAlign: 'center',
   },
 
   textMiniCard: {
     color: 'white',
     fontSize: 11,
+    textAlign: 'center',
   },
 
   terms: {

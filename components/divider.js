@@ -8,12 +8,12 @@ const Divider = () => {
 
 const styles = StyleSheet.create({
   divider: {
-    marginVertical: 16,
+    marginVertical: 4,
     flex: 1,
     width: '92%',
     alignSelf: 'center',
     flexDirection: 'row',
-    borderBottomWidth: 1,
+    borderBottomWidth: 1.5,
     borderStyle: 'dashed',
     borderColor: colors.sunshineGold,
   },

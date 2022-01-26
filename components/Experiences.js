@@ -1,7 +1,6 @@
 import React from 'react';
 import {StyleSheet, View, Text, Flatlist} from 'react-native';
 import Special from './SpecialText';
-import LaikaCard from './LaikaCard';
 import LikaCard from './LaikaCard';
 import {members} from '../db/members';
 
@@ -45,6 +44,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
     color: 'white',
+    textAlign: 'center',
   },
 });
 
