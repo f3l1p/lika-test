@@ -26,8 +26,8 @@ const LaikaSavings = props => {
   return (
     <View style={styles.savingsContainer}>
       <View style={styles.titleContainer}>
-        <Text style={styles.title}>Calcula tu ahorro con la membresia</Text>
-        <Text style={styles.text}>¿Cuanto gastas al mes en tu peludo?</Text>
+        <Text style={styles.title}>Calcula tu ahorro con la membresía</Text>
+        <Text style={styles.text}>¿Cuánto gastas al mes en tu peludo?</Text>
       </View>
       <View style={styles.calcContainer}>
         <View style={styles.inputContainer}>

@@ -16,7 +16,7 @@ const FooterBigCard = () => {
     <View style={styles.footerCard}>
       <View style={styles.footerContainer}>
         <View style={styles.colL}>
-          <Text style={styles.text}>Paga unicamente</Text>
+          <Text style={styles.text}>Paga únicamente</Text>
           <Text style={styles.priceText}>
             $69.000 <Text style={styles.textOpacity}>/año</Text>
           </Text>
@@ -24,14 +24,14 @@ const FooterBigCard = () => {
         <View style={styles.colR}>
           <View style={styles.miniCard}>
             <Text style={styles.textMiniCard}>
-              Lo que quiere a $5.260 al mes
+              Lo que equivale a $5.260 al mes
             </Text>
           </View>
         </View>
       </View>
-      <LaikaButton name="Adquirir membresia" onPress={() => showAlert()} />
+      <LaikaButton name="Adquirir membresía" onPress={() => showAlert()} />
       <Text style={styles.terms}>
-        <Special>Aplica terminos y condiciones</Special>
+        <Special>Aplica términos y condiciones</Special>
       </Text>
     </View>
   );

@@ -19,7 +19,7 @@ const LikaHeader = () => {
         </View>
 
         <Text style={styles.headerText}>
-          Conviertete en miembro, recibe beneficios exclusicos y dale lo mejor a
+          Conviértete en miembro, recibe beneficios exclusivos y dale lo mejor a
           tu mascota.
         </Text>
       </View>

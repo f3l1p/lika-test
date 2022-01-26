@@ -11,7 +11,7 @@ const BigCard = () => {
     <View style={styles.bigCardContainer}>
       <View style={styles.container}>
         <View style={styles.title}>
-          <Text style={styles.text}>Beneficios los 365 dias del año</Text>
+          <Text style={styles.text}>Beneficios los 365 días del año</Text>
         </View>
 
         <View style={styles.textArea}>
